@@ -1,0 +1,42 @@
+
+@import "../partials/settings";
+
+
+[class^="icon-"]{
+	border: 1px solid $icon-border-color;
+
+	height:3em;
+	width: 3em;
+	margin-bottom: $baseline;
+	padding:.25em;
+
+	text-align: center;
+
+	i{
+		line-height: 2.5em; 
+	}
+}
+.icon-circle{
+	border-radius: 100%
+}
+
+.icon-rounded {
+	border-radius: $icon-roundness;
+}
+
+.icon-large{
+	font-size: 150%;
+}
+
+.icon-huge{
+	font-size: 200%;
+}
+
+.green{
+	background-color: darken(#ccc, 30%);
+	border-color: darken(#ccc, 30%);
+}
+
+.white{
+	color: white;
+}

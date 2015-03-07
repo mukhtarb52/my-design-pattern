@@ -1,0 +1,12 @@
+
+{
+	"name":"mukhtar's Pattern Library",
+	"versin": "1.0.0",
+	"dependencies":{
+		"fontawesome": "latest",
+		"superfish": "latest",
+		"animate.css":"latest",
+		"jquery-cycle2": "latest"
+
+	}
+}

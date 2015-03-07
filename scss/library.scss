@@ -1,0 +1,36 @@
+
+@import "../partials/grids";
+@import "../partials/typography";
+@import "../partials/buttons";
+@import "../partials/form";
+@import "../partials/icons";
+@import "../partials/feedback";
+@import "../partials/navigation";
+@import "../partials/tabs";
+@import "../partials/accordion";
+@import "../partials/carousel";
+
+
+
+	*{
+			padding: 0;
+			margin: 0;
+			box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+		}
+		.demo-col{
+			background-color: #C6CED8;
+			text-align:center;
+			padding: 1em 0;
+			display: block;
+			
+		}
+		.row{
+			margin-bottom: 2em;
+		}
+
+body{
+	font-family: $open-sans; 
+}
+
